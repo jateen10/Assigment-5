@@ -1,8 +1,7 @@
 # Assigment-5
 ##  Exercise <br>
-<br>
 <br>● Use the link https://ninestack.com and compare to the screenshot for the header items
-<br>● Use only th<br>ose header items that are in the screenshot (“Software ... “About”) and the “Contact Us” button
+<br>● Use only those header items that are in the screenshot (“Software ... “About”) and the “Contact Us” button
 <br>● The header should also have the logo as currently on the webpage
 <br>● For each of the header links, only use the first paragraph on the respective page
 <br>● Do NOT show the “scroll” icon or scroll bars on any page except on “About” page
