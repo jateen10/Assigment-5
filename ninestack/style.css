@@ -1,0 +1,143 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+main{
+    padding: 4px;
+    grid-area: main;
+}
+aside{
+    grid-area: aside;
+}
+header{
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    grid-area: header;  
+}
+#header-pic{
+    border: 1px solid transparent;
+    border-radius: 30px;
+    margin: 2px;
+}
+#menu li{
+    text-decoration: none;
+    color: black;
+    display: inline;
+    font-size: large;
+    font-weight: bold;
+}
+#menu li a {
+    display: inline-flex;
+    text-decoration: none;
+    margin: 15px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+}
+
+menu{
+    margin-left:auto ;
+}
+
+#pic{
+  border: 1px solid transparent;
+  margin-left: 30%;
+  margin-right: 20%;
+  height: 350px;
+  width: 700px;
+  border-radius: 10px;
+  float: inline-end;
+}
+#BU{
+    border: 2px solid red;
+}
+#CONTACT{
+    border: 2PX solid transparent;
+    background-color: red;
+    padding: 10px 15px 10px 15px;
+    border-radius: 40px;
+    font-weight: lighter;
+}
+h1{
+
+    border: 1px solid transparent;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 50%;
+}
+.para{
+    margin: 20px;
+    margin-left: 20%;
+    text-align: justify;
+    font-size: 20px;
+}
+.para2{
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 30px;
+    border: 1px solid transparent;
+    padding: 5px;
+    border-left: 50%;
+    font-size: 120%;
+    font-weight: lighter ;
+}
+.para3{
+    text-decoration: none;
+    margin-left: 370px;
+    font-weight: 600;
+    color: black;
+}
+.container {
+    display: grid;
+    grid-template-areas: 
+      "header header "
+      "main main"
+      "footer footer";
+    grid-template-columns: auto 200px;
+    grid-gap: 10px;
+  }
+
+  footer{
+    bottom:0;
+    left: 0;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    color: rgb(7, 2, 2);
+    text-align: center;
+    padding: 5px;
+}
+span {
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.scroll-downs {
+    margin: 40px auto;
+    width: 100px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.mousey {
+    width: 3px;
+    padding: 10px 15px;
+    height: 35px;
+    border: 2px solid #ff0059;
+    border-radius: 25px;
+    opacity: .75;
+    box-sizing: content-box;
+    margin: auto;
+}
+.scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #ff0059;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+}
